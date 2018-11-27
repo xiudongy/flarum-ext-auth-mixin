@@ -1,0 +1,38 @@
+{
+    "name": "xiudongy/flarum-ext-auth-mixin",
+    "description": "Allow users to log in with Mixin",
+    "type": "flarum-extension",
+    "keywords": ["authentication"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xiudongy",
+            "email": "xiudongy@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/flarum/core/issues",
+        "source": "https://github.com/xiudongy/flarum-ext-auth-github"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xiudongy\\Auth\\Mixin\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Mixin Login",
+            "icon": {
+                "name": "fab fa-Mixin",
+                "backgroundColor": "#eee",
+                "color": "#333"
+            }
+        }
+    }
+}
